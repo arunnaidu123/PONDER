@@ -1,0 +1,12 @@
+char *data0,*data1,*data2,*data3,*data,*dataIn;
+int id_data0,id_data1,id_data2,id_data3,id_data,id_fft0,id_fft1,id_fft2,id_fft3,id_dataIn;
+long long int *fft0Status;
+long long int *fft1Status;
+long long int *fft2Status;
+long long int *fft3Status;
+int *flagbuff;
+int flag_id;
+pthread_mutex_t fft0Status_mutex,fft1Status_mutex,fft2Status_mutex,fft3Status_mutex;
+struct ips_data *ips;
+int id_ips;
+int id_file;
